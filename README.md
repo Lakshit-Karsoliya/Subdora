@@ -1,5 +1,5 @@
 ![subdora logo](assets/subdora.png "subdora logo")
-
+[![PyPI](https://img.shields.io/badge/PyPI-Ready-blue.svg)](https://pypi.org/project/Subdora/) 
 
 <h1>Subdora 0.0.2</h1>
 
