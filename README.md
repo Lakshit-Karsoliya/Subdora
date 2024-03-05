@@ -5,6 +5,12 @@
 
 <p>This is the second release of subdora. Subdora is an obfuscation tool which makes source code very hard to interprate</p>
 
+<h2>Installation</h2>
+
+```
+pip install Subdora
+```
+
 <h2>Supported OS</h2>
 
 | Version | Arm   | Linux(64) | Windows(64) |
