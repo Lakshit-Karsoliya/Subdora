@@ -58,7 +58,7 @@ Subdora.subdora_parse("main.myst")
 
 <p><b>Encoding python script to image</b></p>
 <p>*only supports png and jpg files</p>
-<code>C:>subdora --obfuscate main.py --img img.jpg --iterations 5 --time 5m</code>
+<code>C:>subdora --obfuscate main.py --img img.jpg --itr 5 --time 5m</code>
 
 <br><p>This will generate main.png file to run the image file use</p>
 
