@@ -62,7 +62,7 @@ Subdora.subdora_parse("main.myst")
 
 <br><p>This will generate main.png file to run the image file use</p>
 
-<code>C:> subdora --run main.img</code>
+<code>C:> subdora --run main.png</code>
 
 <h3>
 
