@@ -1,17 +1,35 @@
 ![subdora logo](https://raw.githubusercontent.com/Lakshit-Karsoliya/Subdora/main/assets/subdora.png "subdora logo")
-<div align="center"><i>Library for obfuscating python scripts</i></div>
-<h1>Subdora 0.2.1</h1>
 
-<p>This is the fifth release of subdora. Subdora is an obfuscation tool which makes source code very hard to interprate</p>
-<hr>
-<h2>What Subdora Does?</h2>
-<p>Subdora Transforms python code into non-redable format to deter casual inspection and adds a layer of protection.</p>
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/subdora)](https://pypi.org/project/subdora/)
 
-<h2>What problem subdora solves?</h2>
-<p>Python code is often easy to read and reverse-engineer, making it vulnerable to unauthorized copying, and sometimes, complex algorithms are tampered with during casual inspection</p>
+<div align="center">
+  <em>A Powerful Library for Obfuscating Python Scripts</em>
+</div>
 
-<h2>Why I made this library?</h2>
-<p>I created this library because existing obfuscation tools are limited in functionality and often come with high costs. I wanted to provide a comprehensive and affordable solution for protecting Python code.</p>
+# Subdora 0.2.2
+
+**Subdora** is a Python obfuscation tool designed to transform your code into a highly secure, non-readable format. Built to protect source code from unauthorized inspection and tampering, it’s backward-compatible with version 0.2.1, making it a flexible solution for securing complex Python algorithms.
+
+---
+
+## 🌟 What Subdora Does
+
+Subdora takes your readable Python code and obfuscates it, converting it into a format that’s extremely challenging to interpret or reverse-engineer. This added layer of protection deters casual and unauthorized access, keeping your intellectual property safe.
+
+---
+
+## 🚀 The Problem Subdora Solves
+
+Python code, by nature, is easy to read and vulnerable to reverse-engineering, posing a risk for unauthorized usage. This library is designed to:
+- Protect complex algorithms and proprietary code from casual inspection.
+- Prevent unauthorized copying and tampering, securing the functionality and integrity of your codebase.
+
+---
+
+## 💡 Why Subdora Was Created
+
+Existing obfuscation tools often fall short—many lack essential features, while others come at a high price. Subdora was created to provide a **comprehensive** and **affordable solution** for developers and businesses looking to protect their Python code with ease.
+
 
 <hr>
 <h2>Installation</h2>
@@ -25,9 +43,9 @@ pip install Subdora
 * Unbuntu >=22.04 
 * Linux Mint 
 
-<h2>What's new in v0.2.1</h2>
+<h2>What's new in v0.2.2</h2>
 
-* bug fixes for linux systems (server)
+* Minor bug fixes and improve error handeling
 
 <h2>Features</h2>
 
