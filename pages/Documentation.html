@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+        integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <title>Subdora - Python Library</title>
+    <style>
+        body {
+            background-color: #fff;
+        }
+
+        code {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            display: inline-block;
+        }
+        .mvh {
+            min-height: 89vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top border-bottom border-body bg-body-tertiary"
+        data-bs-theme="dark">
+        <div class="container justify-content-center">
+            <a class="navbar-brand text-center" href="https://lakshit-karsoliya.github.io/Subdora/"><strong>SUBDORA</strong></a>
+        </div>
+    </nav>
+
+    <div class="container w-100 p-4 mvh">
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+        aria-expanded="false" aria-controls="multiCollapseExample1">Version 0.2.2</a><br>
+        <div class="collapse" id="multiCollapseExample1"><br>
+            <div class="card card-body">
+                <h3><strong>Subdora 0.2.2</strong></h3>
+                <p>Subdora is a Python obfuscation tool designed to transform your code into a highly secure, non-readable format. Built to protect source code from unauthorized inspection and tampering, it’s backward-compatible with version 0.2.1, making it a flexible solution for securing complex Python algorithms.</p>
+                <h5><strong>What's new in v0.2.2</strong></h5>
+                <ul>
+                    <li>Minor bug fixes and improve error handeling</li>
+                </ul>
+                <h5><strong>Tested on</strong></h5>
+                <ul>
+                    <li>Windows 10/11</li>
+                    <li>Ubuntu >= 22.04</li>
+                    <li>Linux mint</li>
+                </ul>
+                <h5><strong>Suppoted Machines</strong></h5>
+                <ul>
+                    <li>x86_64</li>
+                    <li>AMD_64</li>
+                    <li>
+                        <p>check machine architecture</p>
+                        <ul>
+                            <li>
+                                <code>
+                                    import platform<br>
+                                    print(platform.machine())
+                                </code>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <h5><strong>Installation</strong></h5>
+                <ul>
+                    <li>
+                        <code>
+                            ~$ pip install subdora
+                        </code>
+                    </li>
+                </ul>
+                <h5><strong>Obfuscating a python file</strong></h5>
+                <p>main.py</p>
+                <code>
+                    print('hello')
+                </code>
+                <p>using CLI</p>
+                <code>
+                    ~$ subdora --obfuscate main.py
+                </code>
+                <p>This command create main.myst file</p>
+                <p>main.py file can be deleted</p>
+                <p>in order to run .myst file</p>
+                <code>~$ subdora --run main.myst</code><br>
+                <code>~$ hello</code>
+                <p>using python file</p>
+                <code>
+                    import Subdora<br>
+                    Subdora.subdora_encode_file("main.py")
+                </code>
+                <p>Additional arguments</p>
+                <code>
+                    ~$ subdora --obfuscate main.py --img image_path.jpg --itr 5 --time 10m
+                </code>
+                <p>
+                    Above example shows how we obfuscate main.py file into an image with iteration counter of 5 and file is valid only for 10 minutes
+                </p>
+                <p>Subdora only supports .png and .jpg files</p>
+                <p>--time argument support minutes(m) and hours(h)</p>
+
+            </div>
+        </div><hr>
+
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg bg-dark  border-body bg-body-tertiary" data-bs-theme="dark">
+        <div class="container justify-content-center">
+            <a class="navbar-brand text-center" href="#"><strong>Made with ❤️ by Lakshit</strong></a>
+        </div>
+    </nav>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
